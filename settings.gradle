@@ -1,0 +1,4 @@
+include ':app'
+
+include ':testrepomodule'
+project(':testrepomodule').projectDir = new File(settingsDir, '../testrepomodule')
